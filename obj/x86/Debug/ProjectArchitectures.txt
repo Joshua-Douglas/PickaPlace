@@ -1,1 +1,1 @@
-C:\Users\Josh\Documents\GitHub\PickaPlace\PickaPlace.csproj;x86
+D:\PickAPlace\Source codes\PickaPlace.csproj;x86

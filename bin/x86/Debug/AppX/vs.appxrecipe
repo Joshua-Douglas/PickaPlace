@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JOSH-PC</Machine>
-    <WindowsUser>Josh</WindowsUser>
+    <Machine>SANG-TRUONG-DEL</Machine>
+    <WindowsUser>truon</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>91fbdb2e-5b0e-47ca-9ed0-110c952e0c87</PackageIdentityName>
     <PackageIdentityPublisher>CN=Josh</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Josh\Documents\GitHub\PickaPlace\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\PickAPlace\Source codes\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CF5445E11FE1DE01DB582B3896592375BC2C0B79C04C3475357F52E25A085E08</RegisteredManifestChecksum>
+    <LayoutDir>D:\PickAPlace\Source codes\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>43B2A53A2A7DB9918309363C25A3A1F4261C040BFD2033E763E3F19EE3E9D4A4</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>91fbdb2e-5b0e-47ca-9ed0-110c952e0c87_1.0.0.0_x86__1fxnyn17rm79r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>91fbdb2e-5b0e-47ca-9ed0-110c952e0c87_1fxnyn17rm79r!App</RegisteredUserModeAppID>
     <RegisteredPackageID>91fbdb2e-5b0e-47ca-9ed0-110c952e0c87</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\PickAPlace\Source codes\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-02-09T20:55:19.494</Modified>
+      <Modified>2020-02-12T04:44:14.475</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\PickaPlace.exe">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\PickaPlace.exe">
       <PackagePath>entrypoint\PickaPlace.exe</PackagePath>
-      <Modified>2020-02-09T20:55:18.793</Modified>
+      <Modified>2020-02-12T04:44:14.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -370,9 +370,9 @@
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2016-06-12T07:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-06-12T06:14:22.000</Modified>
+      <Modified>2016-06-12T07:14:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
@@ -494,67 +494,67 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T07:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-01-19T03:02:16.260</Modified>
+      <Modified>2020-02-12T04:13:17.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-10T19:25:04.986</Modified>
+      <Modified>2020-02-12T04:13:17.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\PickaPlace.xr.xml">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\PickaPlace.xr.xml">
       <PackagePath>PickaPlace.xr.xml</PackagePath>
-      <Modified>2020-02-09T20:23:23.081</Modified>
+      <Modified>2020-02-12T04:13:17.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-01-25T18:08:19.295</Modified>
+      <Modified>2020-02-12T04:31:07.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-02-09T20:55:18.360</Modified>
+      <Modified>2020-02-12T04:31:07.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-19T01:33:42.000</Modified>
+      <Modified>2019-03-19T00:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-02-09T19:20:08.164</Modified>
+      <Modified>2020-02-12T04:31:07.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Josh\Documents\GitHub\PickaPlace\bin\x86\Debug\Core\PickaPlace.exe">
+    <AppxPackagedFile Include="D:\PickAPlace\Source codes\bin\x86\Debug\Core\PickaPlace.exe">
       <PackagePath>PickaPlace.exe</PackagePath>
-      <Modified>2020-02-09T20:55:19.464</Modified>
+      <Modified>2020-02-12T04:44:14.473</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
